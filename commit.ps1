@@ -4,6 +4,7 @@ git push;
 npm run build;
 Copy-Item ".\dist" "..\temp" -Recurse -Force;
 git switch build;
+Remove-Item '.\assets';
 Copy-Item "..\temp\dist\*" "." -Recurse -Force;
 git add .;
 git commit -a -m "Atualizado com a ultima versão dev";
