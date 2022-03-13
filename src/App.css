@@ -4,3 +4,15 @@
 	--purple: #864879;
 	--soft-red: #e9a6a6;
 }
+header {
+	background-color: var(--dark);
+	height: 15%;
+}
+main {
+	background-color: var(--l-dark);
+	height: 75%;
+}
+footer {
+	background-color: var(--purple);
+	height: 10%;
+}
