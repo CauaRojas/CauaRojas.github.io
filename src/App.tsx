@@ -13,6 +13,50 @@ function App() {
 						title='Teste'
 						description='Esse é um teste muito bem feito sem nenhum erro'
 					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
 				</ul>
 			</main>
 			<footer>Contatos:</footer>
