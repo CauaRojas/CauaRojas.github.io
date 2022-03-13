@@ -16,6 +16,9 @@ main {
 	background-color: var(--l-dark);
 	height: 73.2%;
 }
+ul {
+	display: flex;
+}
 main > h1 {
 	font-size: 3rem;
 	text-align: center;

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Project from './Project';
 
 function App() {
 	return (
@@ -8,10 +9,10 @@ function App() {
 			<main>
 				<h1>Meus Projetos:</h1>
 				<ul>
-					<li>Teste</li>
-					<li>Teste</li>
-					<li>Teste</li>
-					<li>Teste</li>
+					<Project
+						title='Teste'
+						description='Esse é um teste muito bem feito sem nenhum erro'
+					/>
 				</ul>
 			</main>
 			<footer>Contatos:</footer>
