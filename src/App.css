@@ -6,11 +6,19 @@
 }
 header {
 	background-color: var(--dark);
-	height: 15%;
+	height: 10%;
+	padding: 2%;
+	text-align: center;
+	font-size: 5rem;
+	font-family: 'Staatliches', cursive;
 }
 main {
 	background-color: var(--l-dark);
 	height: 75%;
+}
+main > h1 {
+	font-size: 3rem;
+	text-align: center;
 }
 footer {
 	background-color: var(--purple);
