@@ -4,7 +4,7 @@ git push;
 npm run build;
 Copy-Item ".\dist" "..\temp" -Recurse;
 git switch build;
-Copy-Item "..\temp\*" "." -Recurse;
+Copy-Item "..\temp\dist\*" "." -Recurse;
 git add .;
 git commit -a -m "Atualizado com a ultima versão dev";
 git push;
