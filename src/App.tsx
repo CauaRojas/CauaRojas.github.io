@@ -14,7 +14,7 @@ function App() {
 					<li>Teste</li>
 				</ul>
 			</main>
-			<footer>Contatos</footer>
+			<footer>Contatos:</footer>
 		</>
 	);
 }

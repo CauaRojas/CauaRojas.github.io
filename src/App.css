@@ -6,7 +6,7 @@
 }
 header {
 	background-color: var(--dark);
-	height: 10%;
+	height: 9%;
 	padding: 2%;
 	text-align: center;
 	font-size: 5rem;
@@ -14,7 +14,7 @@ header {
 }
 main {
 	background-color: var(--l-dark);
-	height: 75%;
+	height: 73.2%;
 }
 main > h1 {
 	font-size: 3rem;
@@ -22,5 +22,7 @@ main > h1 {
 }
 footer {
 	background-color: var(--purple);
-	height: 10%;
+	padding: 1%;
+	font-size: 2rem;
+	height: 5%;
 }
