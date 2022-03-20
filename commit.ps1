@@ -8,4 +8,4 @@ Remove-Item '.\assets';
 Copy-Item "..\temp\dist\*" "." -Recurse -Force;
 git add .;
 git commit -a -m "Atualizado com a ultima versao dev";
-git push;
+git push origin build;
