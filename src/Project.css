@@ -3,6 +3,7 @@ li {
 	border-radius: 10%;
 	padding: 2rem;
 	width: 80%;
+	max-width: 90%;
 	list-style: none;
 }
 h2 {

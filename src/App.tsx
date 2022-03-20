@@ -10,14 +10,13 @@ type apiCall = githubApi | undefined;
 function App() {
 	//Variável para testar o css adicionando um monte de elementos na tela
 	const debug = false;
+	const apiUrl = 'https://api.github.com/users/cauarojas/repos';
 
 	const [apiData, setApiData] = useState(undefined as apiCall);
 	useEffect(() => {
 		//Quando a pagina rodar ela puxa os dados da api do github
 		const callApi = async () => {
-			const rawData = await fetch(
-				'https://api.github.com/users/cauarojas/repos'
-			);
+			const rawData = await fetch(apiUrl);
 			const jsonData = await rawData.json();
 			setApiData(jsonData as githubApi);
 		};
@@ -87,7 +86,11 @@ function App() {
 							obj.name !== 'CauaRojas.github.io' ? (
 								<Project
 									title={obj.name}
-									description='Esse é um teste muito bem feito sem nenhum erro'
+									description={
+										obj.description ||
+										'Projeto atualmente sem descrição, por favor acesse o link dele para saber mais'
+									}
+									key={obj.id}
 								/>
 							) : null
 						)
