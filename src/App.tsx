@@ -91,6 +91,7 @@ function App() {
 										'Projeto atualmente sem descrição, por favor acesse o link dele para saber mais'
 									}
 									key={obj.id}
+									link={obj.html_url}
 								/>
 							) : null
 						)
