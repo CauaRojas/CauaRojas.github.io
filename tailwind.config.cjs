@@ -2,7 +2,12 @@
 module.exports = {
     content: ['./index.html', './src/**/*.{svelte,ts,js}'],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                ibm: ['IBM Plex Mono', 'monospace'],
+            },
+        },
     },
+    darkMode: 'class',
     plugins: [],
 };
