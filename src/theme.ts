@@ -15,7 +15,7 @@ class Theme {
             this._theme = 'light';
         }
     }
-    public set theme(newTheme: 'dark' | 'light') {
+    private set theme(newTheme: 'dark' | 'light') {
         localStorage.setItem('theme', newTheme);
         document.documentElement.classList.toggle('dark');
         this._theme = newTheme;
@@ -23,5 +23,11 @@ class Theme {
     public get theme() {
         return this._theme;
     }
+    public toggleTheme() {
+        this.theme = this.theme === 'dark' ? 'light' : 'dark';
+        return this.theme;
+    }
 }
-export const theme = new Theme();
+const _theme = new Theme();
+export const theme = _theme.theme;
+export const toggleTheme = _theme.toggleTheme;

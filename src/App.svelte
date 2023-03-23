@@ -1,14 +1,6 @@
 <script lang="ts">
     import './index.css';
-    import { theme } from './theme';
-
-    const toggleTheme = () => {
-        if (theme.theme === 'light') {
-            theme.theme = 'dark';
-        } else {
-            theme.theme = 'light';
-        }
-    };
+    import { toggleTheme } from './theme';
 </script>
 
 <body>
